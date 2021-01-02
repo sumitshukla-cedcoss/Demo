@@ -11,7 +11,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
- * @since 1.0.0
+ * @since Twenty Twenty-One 1.0
  */
 
 get_header();
@@ -23,8 +23,6 @@ if ( have_posts() ) {
 		the_post();
 
 		get_template_part( 'template-parts/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) );
-echo"Hello Everybody ";
-echo"This is demo to see changes on the github;
 	}
 
 	// Previous/next page navigation.
